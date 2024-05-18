@@ -1,0 +1,112 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    /* background-color: white; */
+}
+  
+    /* #meme{
+        background-color: white;
+    } */
+
+  .image-container img {
+    display: block;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* button{
+    position: absolute;
+    size: ;
+  } */
+
+  .removeButton{
+    background: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+
+  /* .below{
+    background-color: #fff;
+  } */
+
+  body{
+    margin: 0;
+    background-color: rgb(201, 207, 205);
+  }
+
+  .overall{
+    background-color: rgb(216, 241, 233);
+  }
+
+  .positioning{
+    position: relative;
+  }
+  
+  .image-container{
+    width: 70%;
+  }
+
+  .image-container:hover {
+    opacity: 0.5;
+  }
+
+  h1{
+    background-color: rgb(231, 235, 234);
+    width:100%;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  h2{
+    background-color: rgb(201, 207, 205);
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  .overlay-text-top {
+    position: absolute;
+    top: 0; 
+    left:2em;
+    /* right: 5cap;
+    bottom: 5cap; */
+    /* tra5sform: translate(-50%, -50%);  */
+    color: #fff; 
+    /* padding: 5px 100px; */
+    /* border-radius: 0px;  */
+    font-size: 30px; 
+    /* text-align: center; */
+    font-family: impact;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  .overlay-text-bottom {
+    position: absolute;
+    left: 2.5em;
+    bottom: 0;  
+    /* transform: translate(-50%, -50%);  */
+    color: #ffffff; 
+    /* padding: 5px 55px;  */
+    font-size: 30px; 
+    /* text-align: center; */
+    font-family: impact;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    
+  }
+
+
+  ul#meme{
+    list-style-type:  none;
+  }
+
+
+  #submitform{
+    background-color: aliceblue;
+  }

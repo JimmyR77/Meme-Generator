@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="look.css" />
+  </head>
+  <body>
+    <h1>THE MEME GENERATOR</h1>
+    <h2>Fill this form out for to create your own meme!</h2>
+    <form action="" id="submitform">
+      <table>
+        <tr>
+          <td>
+            <label for="image url">Image URL:</label>
+          </td>
+          <td>
+            <input type="text" text = 'text' required id="image" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="top text">Text On Top:</label>
+          </td>
+          <td>
+            <input type="text" text = 'text' required id="topText" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="text bottom">Text On Bottom:</label>
+          </td>
+          <td>
+            <input type="text" text = 'text' required id="bottomText" />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" /><br />
+    </form>
+    <ul id="meme"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>
